@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-container {
+    background: red;
+    padding: 30px;
+  }
+  
+  .top-container__top-section {
+    border-bottom: 1px solid black;
+  }
+  
+  .main-screen {
+    border-radius: 15px;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .main-section__white {
+    background: white;
+    border: 3px solid black;
+    height: 325px;
+  }
+  
+  .main-section__black {
+    background: black;
+    height: calc(100% - 50px);
+    margin: 25px;
+    padding: 10px;
+  }
+  
+  .poke-id {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+  }
+
+  .poke-name {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .screen__image {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .poke-front-image{
+    height: 100px;
+    width: 100px;
+  }
+
+  .poke-back-image {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .screen__stats {
+    background: black;
+    color: white;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .screen__description {
+    display: flex;
+    height: 1px;
+    justify-content: space-around;
+  }
+  .poke-type-one {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .poke-type-two {
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  
+  .top-container__right {
+    border-left: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    width: 50px;
+  }
+  
+  .bottom-container {
+    background: red;
+    height: calc(100% - 50px);
+    padding: 10px;
+    width: calc(50% - 50px);
+  }
+  
+  .bottom-container__screen {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 10px;
+    
+  }
+
+  .bottom-container__black {
+    background: black;
+    height: 300px;
+      padding: 10px;
+  }
+  .bottom-container__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .right-button {
+    align-items: center;
+    background: white;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    width: 120px;
+  }
+    
+  .left-button{
+    align-items: center;
+    background: white;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    width: 120px;
+  }
+
+  .list-item {
+    align-items: center;
+    color: black;
+    display: flex;
+    font-size: 15px;
+    height: 26px;
+    width: 15%;
+  }
+  
+  .list-item:hover {
+    background: black;
+    color: white;
+  }
+  
+  .list-item:active {
+    background: black;
+    color: white;
+  }
+  
+  .hide {
+    display: none;
+  }
